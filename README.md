@@ -32,31 +32,7 @@ The application allows users to upload images, automatically detects faces using
 - SQLite
 - Uvicorn
 
----
 
-## Project Architecture
-face-detection-platform/
-│
-├── backend/
-│ ├── main.py
-│ ├── requirements.txt
-│ ├── haarcascade_frontalface_default.xml
-│ ├── database.py
-│ ├── models.py
-│ └── uploads/ (generated)
-│
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── api.js
-│ │ ├── App.jsx
-│ │ └── App.css
-│ └── package.json
-│
-└── README.md
-
----
 
 ##  Application Workflow (End-to-End)
 
@@ -85,7 +61,7 @@ face-detection-platform/
 - Timestamp
 - JSON response is returned to frontend
 
-Example response:
+### Example response:
 json
 {
 "file_name": "group.jpg",
