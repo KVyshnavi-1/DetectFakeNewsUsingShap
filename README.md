@@ -77,10 +77,10 @@ json
 
 ### Backend Setup
 
-bash:
-cd face-backend
-pip install -r requirements.txt
-uvicorn main:app --reload
+- bash:
+- cd face-backend
+- pip install -r requirements.txt
+- uvicorn main:app --reload
 
 #### Backend runs at: 
 http://127.0.0.1:8000
@@ -90,9 +90,9 @@ http://127.0.0.1:8000
 http://127.0.0.1:8000/docs
 
 ### Frontend Setup
-cd face-frontend
-npm install
-npm run dev
+- cd face-frontend
+- npm install
+- npm run dev
 
 
 #### Frontend runs at:
