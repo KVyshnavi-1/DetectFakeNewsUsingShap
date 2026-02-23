@@ -1,0 +1,56 @@
+# ==========================================
+# PYTHON (Backend)
+# ==========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.local
+
+# ==========================================
+# MACHINE LEARNING FILES (Optional)
+# ==========================================
+# Uncomment below if you DON'T want to push model files
+ *.pkl
+
+# ==========================================
+# NODE / REACT (Frontend)
+# ==========================================
+node_modules/
+build/
+dist/
+coverage/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# OS FILES
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# IDE FILES
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# TEST & CACHE
+# ==========================================
+.pytest_cache/
+.cache/
