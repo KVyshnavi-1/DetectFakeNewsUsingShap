@@ -128,11 +128,6 @@ function Prediction({ addToHistory }) {
   return (
 
     <div className="page">
-
-      <p className="page-eyebrow">
-        AI-Powered Detection
-      </p>
-
       <h1 className="page-title">
         Analyze an Article
       </h1>
